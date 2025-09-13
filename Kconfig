@@ -1,0 +1,10 @@
+# file: zephyr/Kconfig
+menu "NeoTrellis (Adafruit Seesaw) driver"
+
+config ZMK_NEOTRELLIS
+    bool "Adafruit NeoTrellis driver"
+    default n
+    help
+      Enable support for the Adafruit NeoTrellis (Seesaw-based 4x4 keypad).
+
+endmenu

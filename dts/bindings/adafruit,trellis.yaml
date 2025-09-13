@@ -1,0 +1,11 @@
+description: Adafruit Seesaw NeoTrellis keypad
+
+compatible: "adafruit,trellis"
+
+include: i2c-device.yaml
+
+properties:
+  reg:
+    type: int
+    required: true
+    description: I2C address of the Trellis (default 0x2E)
