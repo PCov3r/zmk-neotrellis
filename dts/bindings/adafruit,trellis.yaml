@@ -5,7 +5,11 @@ compatible: "adafruit,trellis"
 include: i2c-device.yaml
 
 properties:
-  reg:
+  rows:
     type: int
     required: true
-    description: I2C address of the Trellis (default 0x2E)
+    description: Number of rows (4)
+  cols:
+    type: int
+    required: true
+    description: Number of columns (4)
